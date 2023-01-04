@@ -1,0 +1,21 @@
+{
+  "name": "curso-asincronismo",
+  "version": "1.0.0",
+  "description": "Curso de Platzi para entender el asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js ",
+    "promise": "node src/promise/challenge.js"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "author": "Fernanda Ramírez <mframirezfuentes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type":"module"
+}
