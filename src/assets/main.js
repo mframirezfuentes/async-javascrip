@@ -1,4 +1,4 @@
-
+require('dotenv').config()
 
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCBVjMGOIkavEAhyqpxJ73Dw&part=snippet%2Cid&order=date&maxResults=9'
 const content = null || document.getElementById('content')
@@ -6,7 +6,7 @@ const content = null || document.getElementById('content')
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '1abfd844c2msh327dec6a7761504p1749b2jsn71a2ee00e570',
+        'X-RapidAPI-Key': process.env.SECRET_KEY,
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };

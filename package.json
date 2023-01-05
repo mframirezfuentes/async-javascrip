@@ -15,6 +15,7 @@
   "author": "Fernanda Ramírez <mframirezfuentes@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
   },
